@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<b:book xmlns:b="http://www.example.org/Book" 
+		  xmlns:p="http://www.example.org/Patient"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+			xsi:schemaLocation="http://www.example.org/Book ../patientXMLProj/Book.xsd 
+								http://www.example.org/Patient /home/workspace/patientXMLProj/Patient.xsd">
+  <b:name>b:name</b:name>
+  <b:author>b:author</b:author>
+  <b:pages>0</b:pages>
+  <b:free>true</b:free>
+</b:book>

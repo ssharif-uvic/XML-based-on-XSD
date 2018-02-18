@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Default namespace when one xmlns does not define a prefix.  Only one can be done. -->
+<patient xmlns="http://www.sia.com/Patient" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.sia.com/Patient Patient.xsd ">
+	<id>0</id>
+	<name>name</name>
+	<age>0</age>
+	<dob>2001-01-01</dob>
+	<email>email</email>
+	<gender>gender</gender>
+	<phone>phone</phone>
+</patient>

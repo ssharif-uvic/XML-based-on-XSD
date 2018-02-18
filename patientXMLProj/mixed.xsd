@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.example.org/mixed"
+	xmlns="http://www.example.org/mixed" elementFormDefault="qualified"
+	xmlns:b="http://www.example.org/Book" xmlns:p="http://www.sia.com/Patient">
+	
+	<xsd:import schemaLocation="Book.xsd"
+		namespace="http://www.example.org/Book">
+	</xsd:import>
+	<xsd:import schemaLocation="Patient.xsd" namespace="http://www.sia.com/Patient"></xsd:import>
+</xsd:schema>
